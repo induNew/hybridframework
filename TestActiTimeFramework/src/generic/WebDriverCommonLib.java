@@ -21,7 +21,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.google.common.io.Files;
 
 public class WebDriverCommonLib extends BaseTest{
-
+//reusable operational methods
 	public String getTheTitleOfTheWebPage()
 	{
 		String titleOfTheWebPage = driver.getTitle();
